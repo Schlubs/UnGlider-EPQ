@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T18:35:55.231Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="fwjxoBEuaUKZLFAkUo1g" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T18:51:19.934Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="iwvXfN1lnFDlnmYYDi51" version="23.1.1" type="github">
   <diagram name="Page-1" id="_ZtMKQhsQfH3b8c-g6-p">
     <mxGraphModel dx="2604" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="843ryuQk1RUX_LKev8zN-1" value="" style="whiteSpace=wrap;html=1;fillOpacity=0;dashed=1;dashPattern=12 12;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="245" y="800" width="650" height="210" as="geometry" />
+          <mxGeometry x="245" y="800" width="335" height="180" as="geometry" />
         </mxCell>
         <mxCell id="_ji78fSE16EsFTa8EE69-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_ji78fSE16EsFTa8EE69-1" target="_ji78fSE16EsFTa8EE69-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -92,6 +92,9 @@
         <mxCell id="_ji78fSE16EsFTa8EE69-24" value="Battery &lt;br&gt;voltage &lt;br&gt;at expected levels?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="260" y="680" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="INJ6BTLhFH8vUywgqhRU-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ji78fSE16EsFTa8EE69-26" target="INJ6BTLhFH8vUywgqhRU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_ji78fSE16EsFTa8EE69-26" value="Sonar &lt;br&gt;detected&lt;br&gt;terrain &lt;br&gt;in path?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="260" y="820" width="100" height="100" as="geometry" />
         </mxCell>
@@ -127,6 +130,17 @@
         </mxCell>
         <mxCell id="INJ6BTLhFH8vUywgqhRU-6" value="Percentage difference&lt;br&gt;&amp;nbsp;&amp;gt; 15%?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="390" y="420" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="INJ6BTLhFH8vUywgqhRU-9" value="Distance &lt;br&gt;&amp;lt;100m?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="820" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="INJ6BTLhFH8vUywgqhRU-12" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="INJ6BTLhFH8vUywgqhRU-9" target="_ji78fSE16EsFTa8EE69-26">
+          <mxGeometry x="0.0435" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INJ6BTLhFH8vUywgqhRU-13" value="" style="shape=or;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="620" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
