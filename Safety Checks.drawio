@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T15:35:09.126Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="JCxRiAbdTnjA44dFxDyd" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T18:20:11.390Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="vvTf5h7QtKu1FpV2TxoE" version="23.1.1" type="github">
   <diagram name="Page-1" id="_ZtMKQhsQfH3b8c-g6-p">
-    <mxGraphModel dx="2793" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2554" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="843ryuQk1RUX_LKev8zN-1" value="" style="whiteSpace=wrap;html=1;fillOpacity=0;dashed=1;dashPattern=12 12;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="843ryuQk1RUX_LKev8zN-1" value="" style="whiteSpace=wrap;html=1;fillOpacity=0;dashed=1;dashPattern=12 12;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="245" y="800" width="650" height="210" as="geometry" />
         </mxCell>
         <mxCell id="_ji78fSE16EsFTa8EE69-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_ji78fSE16EsFTa8EE69-1" target="_ji78fSE16EsFTa8EE69-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_ji78fSE16EsFTa8EE69-1" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="130" y="180" width="100" height="60" as="geometry" />
+          <mxGeometry x="260" y="60" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_ji78fSE16EsFTa8EE69-2" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="830" y="180" width="100" height="60" as="geometry" />
@@ -21,7 +21,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="843ryuQk1RUX_LKev8zN-7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ji78fSE16EsFTa8EE69-4" target="843ryuQk1RUX_LKev8zN-6">
+        <mxCell id="843ryuQk1RUX_LKev8zN-7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_ji78fSE16EsFTa8EE69-4" target="843ryuQk1RUX_LKev8zN-6" edge="1">
           <mxGeometry x="0.6" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -33,7 +33,7 @@
           <mxGeometry x="805" y="440" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_ji78fSE16EsFTa8EE69-7" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;rotation=0;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="690" y="440" width="90" height="90" as="geometry" />
+          <mxGeometry x="730" y="340" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_ji78fSE16EsFTa8EE69-8" value="Wait 1 second" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="130" y="700" width="100" height="60" as="geometry" />
@@ -50,6 +50,9 @@
           <mxGeometry x="0.6" y="-20" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="INJ6BTLhFH8vUywgqhRU-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ji78fSE16EsFTa8EE69-14" target="INJ6BTLhFH8vUywgqhRU-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_ji78fSE16EsFTa8EE69-14" value="Ballast &lt;br&gt;Pressure=&lt;br&gt;h⍴g?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="260" y="420" width="100" height="100" as="geometry" />
@@ -76,7 +79,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="843ryuQk1RUX_LKev8zN-8" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ji78fSE16EsFTa8EE69-24" target="_ji78fSE16EsFTa8EE69-8">
+        <mxCell id="843ryuQk1RUX_LKev8zN-8" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_ji78fSE16EsFTa8EE69-24" target="_ji78fSE16EsFTa8EE69-8" edge="1">
           <mxGeometry x="0.1981" y="-10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -87,19 +90,19 @@
         <mxCell id="_ji78fSE16EsFTa8EE69-26" value="Sonar &lt;br&gt;detected&lt;br&gt;terrain &lt;br&gt;in path?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="260" y="820" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="843ryuQk1RUX_LKev8zN-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=west;dashed=1;" vertex="1" parent="1">
+        <mxCell id="843ryuQk1RUX_LKev8zN-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=west;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="855" width="70" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="843ryuQk1RUX_LKev8zN-3" value="This section is not required as it is only&lt;br&gt;relevant if a sonar system is installed.&lt;br&gt;I haven&#39;t included on in my design as it&lt;br&gt;would unnecessarily increase costs for&lt;br&gt;my particular application, however if the&lt;br&gt;glider needs to be used in un-mapped&lt;br&gt;terrain then sonar could be considered.&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;dashed=1;" vertex="1" parent="1">
+        <mxCell id="843ryuQk1RUX_LKev8zN-3" value="This section is not required as it is only&lt;br&gt;relevant if a sonar system is installed.&lt;br&gt;I haven&#39;t included on in my design as it&lt;br&gt;would unnecessarily increase costs for&lt;br&gt;my particular application, however if the&lt;br&gt;glider needs to be used in un-mapped&lt;br&gt;terrain then sonar could be considered.&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="852.5" width="230" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="843ryuQk1RUX_LKev8zN-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="843ryuQk1RUX_LKev8zN-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="855" width="40" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="843ryuQk1RUX_LKev8zN-6" value="Depth &lt;br&gt;difference&amp;gt; 100m?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="843ryuQk1RUX_LKev8zN-6" value="Depth &lt;br&gt;difference&amp;gt; 100m?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="390" y="160" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="843ryuQk1RUX_LKev8zN-9" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" edge="1" parent="1" source="_ji78fSE16EsFTa8EE69-26" target="_ji78fSE16EsFTa8EE69-8">
+        <mxCell id="843ryuQk1RUX_LKev8zN-9" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" parent="1" source="_ji78fSE16EsFTa8EE69-26" target="_ji78fSE16EsFTa8EE69-8" edge="1">
           <mxGeometry x="0.0529" y="-10" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="230" y="870" />
@@ -109,14 +112,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="843ryuQk1RUX_LKev8zN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" edge="1" parent="1" source="_ji78fSE16EsFTa8EE69-8" target="_ji78fSE16EsFTa8EE69-4">
+        <mxCell id="843ryuQk1RUX_LKev8zN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" parent="1" source="_ji78fSE16EsFTa8EE69-8" target="_ji78fSE16EsFTa8EE69-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-50" y="730" />
-              <mxPoint x="-50" y="140" />
-              <mxPoint x="310" y="140" />
+              <mxPoint x="-50" y="210" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="INJ6BTLhFH8vUywgqhRU-6" value="Percentage difference&lt;br&gt;&amp;nbsp;&amp;gt; 15%?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeOpacity=100;fillOpacity=100;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="420" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
